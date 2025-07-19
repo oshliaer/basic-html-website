@@ -30,19 +30,21 @@
   </head>
   <body>
     <header>
-      <img
-        src="/logo-small.png"
-        alt="logo"
-      />
+      <a href="/">
+        <img
+          src="/logo-small.png"
+          alt="logo"
+        />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./articles.html">Articles</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    <nav>
-      <ul>
-        <li><a href="./">Home</a></li>
-        <li><a href="./projects.html">Projects</a></li>
-        <li><a href="./articles.html">Articles</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
-    </nav>
     <main>
       <h1>Frontend Developer</h1>
       <p>html only with proper layout, no styling</p>
@@ -59,14 +61,16 @@
 
       <section>
         <h2>Work Experience</h2>
-        <h3>Self-Employed</h3>
-        <p>roadmap.sh</p>
-        <p>Solved all the frontend projects</p>
-        <p>Visit my Profile</p>
-        <h3>OpenSource Work</h3>
-        <p>Contributed to 50 opensource projects.</p>
-        <p>Made my own projects with 200 GitHub Stars.</p>
-        <p>Visit my GitHub Profile</p>
+        <article>
+          <h3>roadmap.sh</h3>
+          <p>Solved all the frontend projects</p>
+          <a href="#link-to-profile">Visit my Profile</a>
+        </article>
+        <article>
+          <h3>OpenSource Work</h3>
+          <p>Contributed to 50 opensource projects. Made my own projects with 200 GitHub Stars.</p>
+          <a href="#link-to-github">Visit my GitHub Profile</a>
+        </article>
       </section>
       <section>
         <h2>Education</h2>
@@ -86,18 +90,22 @@
       </section>
       <section>
         <h2>Reviews from my Teachers</h2>
-        <blockquote>
-          <p>"John Doe was a brilliant student; always stood out with his assignments."</p>
-          <footer>Jane Doe,<br />Assistant Professor</footer>
-        </blockquote>
-        <blockquote>
-          <p>"John Doe was a brilliant student; always stood out with his assignments."</p>
-          <footer>Jane Doe,<br />Assistant Professor</footer>
-        </blockquote>
-        <blockquote>
-          <p>"John Doe was a brilliant student; always stood out with his assignments."</p>
-          <footer>Jane Doe,<br />Assistant Professor</footer>
-        </blockquote>
+        <figure>
+          <blockquote><p>"John Doe was a brilliant student; always stood out with his assignments."</p></blockquote>
+          <figcaption>— <cite>Jane Doe</cite>, Assistant Professor</figcaption>
+        </figure>
+        <figure>
+          <blockquote>
+            <p>"John Doe was a brilliant student; always stood out with his assignments."</p>
+          </blockquote>
+          <figcaption>— <cite>Jane Doe</cite>, Assistant Professor</figcaption>
+        </figure>
+        <figure>
+          <blockquote>
+            <p>"John Doe was a brilliant student; always stood out with his assignments."</p>
+          </blockquote>
+          <figcaption>— <cite>Jane Doe</cite>, Assistant Professor</figcaption>
+        </figure>
       </section>
     </main>
     <footer>
